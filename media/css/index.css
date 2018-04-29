@@ -1,0 +1,81 @@
+html{
+  font-size: 16px;
+}
+h1,h2,h3{
+  font-weight: bold;
+}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.4rem;
+}
+a{
+  text-decoration: none;
+}
+a:link {
+    color: green;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: blue;
+}
+
+/* HEADER */
+header div{
+  text-align: center;
+}
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: hsla(0,0%, 96%, .8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+  padding: 0.5rem 0;
+}
+.headersides{
+  padding: 0 4rem;
+}
+header img{
+  width: 6rem;
+  height: auto;
+  padding: 0 4rem;
+}
+/* Main Content */
+
+main{
+  position: relative;
+  align-items: center;
+  top: 6rem;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+#landing{
+  /* border: 1px solid black; */
+}
+#landing h1{
+  color: hsl(30,100%,70%);
+  font-size: 4rem;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px hsl(0, 50%, 0%);
+  position: absolute;
+     top: 8%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
