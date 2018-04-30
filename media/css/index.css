@@ -1,17 +1,21 @@
 html{
-  font-size: 16px;
+  font-size: 18px;
+  background-color: hsla(0,0%, 80%);
 }
 h1,h2,h3{
   font-weight: bold;
 }
+p{
+  font-size: 1rem;
+}
 h1{
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 h2{
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 a{
   text-decoration: none;
@@ -23,10 +27,17 @@ a:visited {
     color: green;
 }
 a:hover {
-    color: hotpink;
+    color: red;
 }
 a:active {
     color: blue;
+}
+a {
+   outline: 0;
+}
+i { transition: all .2s ease-in-out; }
+.grow:hover i{
+  transform: scale(1.5);
 }
 
 /* HEADER */
@@ -37,7 +48,7 @@ header{
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: hsla(0,0%, 96%, .8);
+  background-color: hsl(0,0%, 90%);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,25 +68,69 @@ header img{
 main{
   position: relative;
   align-items: center;
-  top: 6rem;
+  top: 5.5rem;
   width: 75%;
   margin: auto;
   display: flex;
   flex-direction: column;
 }
-#landing{
-  /* border: 1px solid black; */
+
+#landing img{
+    max-width: 100%;
+    height: auto;
 }
 #landing h1{
-  color: hsl(30,100%,70%);
+  color: hsl(0,0%,0%);
   font-size: 4rem;
   text-align: center;
   display: inline-block;
   width: 100%;
   text-transform: uppercase;
-  text-shadow: 2px 2px 4px hsl(0, 50%, 0%);
+  text-shadow: 0px 0px 4px hsl(0, 50%, 100%);
   position: absolute;
-     top: 8%;
+     top: 15%;
      left: 50%;
      transform: translate(-50%, -50%);
+}
+#weare {
+margin-top: 2rem;
+width: 100%;
+text-align: center;
+padding-bottom: 5rem;
+}
+.boxes{
+  margin: 2rem 0;
+  width: 100%;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.infobox{
+  padding: 1rem 1rem;
+  margin: 1rem 0;
+  width: 25%;
+  background-color: hsla(0,0%, 60%);
+
+}
+.infobox h2{
+  margin: 1rem 0;
+}
+.infobox p{
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+
+footer nav{
+  margin: 2rem;
+}
+
+
+footer{
+  color: hsl(0,100%,15%);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  background-color: hsl(0,0%, 90%);
 }
