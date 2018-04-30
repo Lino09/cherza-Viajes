@@ -39,6 +39,7 @@ a:active {
 a {
    outline: 0;
 }
+
 i, .datos{ transition: all .2s ease-in-out; }
 .grow:hover i{
   transform: scale(1.5);
@@ -129,6 +130,7 @@ padding-bottom: 5rem;
   width: 100%;
   text-align: center;
 }
+
 .datos {
   padding: 2rem 0;
   display: flex;
@@ -137,10 +139,7 @@ padding-bottom: 5rem;
   align-items: center;
   background-color: hsla(0,0%, 60%);
 }
-#logos{
-  display: flex;
-  flex-direction: column;
-}
+
 .datos h2{
   margin: 0 1rem;
 }
@@ -163,7 +162,7 @@ footer h2{
 .datos:hover{
   background-color: hsl(300,10%, 60%);
   }
-
+/* Resposive Desing */
   @media only screen and (max-width: 1180px){
     main{
       width: 100%;
@@ -208,7 +207,7 @@ footer h2{
     height: auto;
   }
   h2{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .biggy{
     display: none;
@@ -216,5 +215,4 @@ footer h2{
   .smally{
     display: inline-block;
   }
-
 }
