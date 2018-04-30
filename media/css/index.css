@@ -36,7 +36,7 @@ a:active {
 a {
    outline: 0;
 }
-i ,{ transition: all .2s ease-in-out; }
+i, .datos{ transition: all .2s ease-in-out; }
 .grow:hover i{
   transform: scale(1.5);
 }
