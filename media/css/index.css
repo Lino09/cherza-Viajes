@@ -72,6 +72,7 @@ header img{
 /* Main Content */
 
 main{
+  margin: 0;
   position: relative;
   align-items: center;
   top: 5.5rem;
@@ -152,6 +153,7 @@ width: 100%;
 display: flex;
 flex-direction: column;
 align-items: center;
+margin: 0;
 margin-top:8rem;
 padding: 2rem 0;
 background-color: hsl(0,0%, 90%);
@@ -200,6 +202,10 @@ footer h2{
   .datos i{
     display: none;
   }
+  .datos{
+    margin: 0;
+  }
+
   .infobox{
     width: 100%;
     margin: 0;
