@@ -1,3 +1,4 @@
+
 html{
   font-size: 18px;
   background-color: hsla(0,0%, 80%);
@@ -35,10 +36,11 @@ a:active {
 a {
    outline: 0;
 }
-i { transition: all .2s ease-in-out; }
+i ,{ transition: all .2s ease-in-out; }
 .grow:hover i{
   transform: scale(1.5);
 }
+
 
 /* HEADER */
 header div{
@@ -72,6 +74,7 @@ main{
   width: 75%;
   margin: auto;
   display: flex;
+  display: block;
   flex-direction: column;
 }
 
@@ -119,18 +122,41 @@ padding-bottom: 5rem;
   text-align: justify;
   margin-bottom: 2rem;
 }
-
-
-footer nav{
-  margin: 2rem;
+#contacto{
+  width: 100%;
+  text-align: center;
 }
-
-
-footer{
-  color: hsl(0,100%,15%);
+.datos {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  width: 45%;
   align-items: center;
+  background-color: hsla(0,0%, 60%);
+}
+#logos{
   display: flex;
   flex-direction: column;
-  padding: 1rem 0;
-  background-color: hsl(0,0%, 90%);
 }
+.datos h2{
+  margin: 0 1rem;
+}
+section{
+  display: block;
+}
+
+footer{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top:8rem;
+padding: 2rem 0;
+background-color: hsl(0,0%, 90%);
+}
+footer h2{
+  margin:  1rem 0;
+}
+.datos:hover{
+  background-color: hsl(300,10%, 60%);
+  }
