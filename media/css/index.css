@@ -6,9 +6,7 @@ html{
 .smally{
   display: none;
 }
-*{
-  border: 1px solid red;
-}
+
 h1,h2,h3{
   font-weight: bold;
 }
@@ -216,7 +214,7 @@ footer h2{
     height: auto;
   }
   h2{
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   .biggy{
     display: none;
